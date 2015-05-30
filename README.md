@@ -20,8 +20,9 @@ Root Folder (This is the main folder for the project and can be of any name that
 By default the site will be named lasp.dev.  If you wish to change this to a different name (e.g. my-site.dev) you must change every reference to lasp.dev in the following files to the custom name:
 - /conf/lasp.dev.conf *Filename must be changed to the new name (e.g. lasp.dev.conf becomes my-site.dev.conf)*
 - /vagrant/Vagrantfile
-- /vagrant/lasp.sh *We recommend that you change this filename as well.*
-The easiest way to accomplish this task is to do a search and replace through the above files for 'lasp'.  This will only work **if** you change the filename of lasp.sh to the new name.
+- /vagrant/lasp.sh *This filename must be changed as well.*
+
+To accomplish this task is do a search and replace through the above files for 'lamp' and replace with your chosen project name.
 
 ## Setup
 1. Clone or download the ZIP archive of this Git repository to your project folder.
