@@ -3,7 +3,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update
 
 # - CHANGE FROM SQLITE TO MYSQL BEFORE LAUNCH
-apt-get install -y apache2 php5 php5-mysql mysql-server
+apt-get install -y apache2 php5 php5-mysql mysql-server-5.6
 
 chsh -s /bin/bash www-data
 
